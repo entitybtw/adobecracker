@@ -15,11 +15,16 @@ if '%errorlevel%' NEQ '0' (
 
 :: Менюшка
 color 3
-title Adobe Cracker v1.7
+title Adobe Cracker v1.8
 
 :menu
-curl -k https://pastebin.com/raw/30zt5svh
-echo Adobe Cracker v1.7 by entitybtw                                                                                                                                                           
+ping -n 1 https://pastebin.com >nul
+if %errorlevel% equ 0 (
+    curl -k https://pastebin.com/raw/30zt5svh
+) else (
+    echo Adobe Cracker
+)
+echo Adobe Cracker v1.8 by entitybtw                                                                                                                                                           
 echo Select Option:
 echo 1. Creative Cloud Download
 echo 2. Download Adobe Genp
