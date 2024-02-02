@@ -7,5 +7,5 @@ An app for installing patchers, and more for cracking Adobe products
 3. Start Adobe Genp
 
 # Recomendations
-Disable Microsoft Defender, Use firefox to install my program. Microsoft Defender is deleting my program (idk why)
+Disable Microsoft Defender, Use firefox to install my program. Chrome and Microsoft Defender is deleting my program (idk why)
 
