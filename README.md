@@ -5,3 +5,7 @@ An app for installing patchers, and more for cracking Adobe products
 1. Adobe Creative Cloud Installer
 2. Adobe Genp Installer
 3. Start Adobe Genp
+
+# Recomendations
+Disable Microsoft Defender, Use firefox to install my program. Microsoft Defender is deleting my program (idk why)
+
