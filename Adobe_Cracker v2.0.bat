@@ -1,11 +1,8 @@
 @echo off
 
-:: Проверка прав администратора
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 
-:: Если права администратора не были получены, повторный запуск с запросом прав
 if '%errorlevel%' NEQ '0' (
-    echo Повторный запуск с запросом прав...
     echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
     echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
     "%temp%\getadmin.vbs"
@@ -13,9 +10,8 @@ if '%errorlevel%' NEQ '0' (
     exit /B
 )
 
-:: Менюшка
 color 3
-title Adobe Cracker v1.9
+title Adobe Cracker v2.0
 
 :menu
 ping -n 1 pastebin.com >nul
@@ -24,7 +20,7 @@ if %errorlevel% equ 0 (
 ) else (
     echo Adobe Cracker
 )
-echo Adobe Cracker v1.9 by entitybtw                                                                                                                                                           
+echo Adobe Cracker v2.0 by entitybtw                                                                                                                                                           
 echo Select Option:
 echo 1. Creative Cloud Download
 echo 2. Download Adobe Genp
