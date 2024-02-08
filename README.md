@@ -10,7 +10,8 @@ An app for installing patchers, and more for cracking Adobe products
 Disable Microsoft Defender, Use firefox to install my program. Chrome and Microsoft Defender is deleting my program (idk why)
 
 # Versions
-- v1.9 (current)
+- v2.0 (current)
+- v1.9 
 - v1.8
 - v1.7
 - v1.6
